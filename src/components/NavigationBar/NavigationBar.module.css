@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #333;  /* Dark background for the navbar */
+    padding: 10px;           /* Some padding around the navbar */
+    display: flex;           /* Flexbox for layout */
+    justify-content: space-around; /* Space out the links evenly */
+    align-items: center;     /* Align items vertically */
+  }
+  
+  .navlink {
+    color: white;           /* White text for links */
+    text-decoration: none;  /* Remove underline from links */
+    font-size: 18px;        /* Slightly larger font */
+    padding: 8px 16px;      /* Padding around the links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navlink:hover {
+    background-color: #555;  /* Darker background on hover */
+    border-radius: 5px;      /* Rounded corners on hover */
+  }
+  
+  .navlink.active {
+    background-color: #007bff; /* Blue background for active link */
+    border-radius: 5px;        /* Rounded corners for active link */
+  }
+  
+  .navlink:active {
+    transform: scale(0.98);    /* Slight "press" effect on click */
+  }
+  

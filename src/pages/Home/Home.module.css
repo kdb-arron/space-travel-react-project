@@ -1,0 +1,67 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light grey background */
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 1.5rem;
+    color: #555; /* Slightly lighter text color */
+    max-width: 800px; /* Limit the width of the description text */
+    line-height: 1.6;
+  }
+  
+  .home-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .instructions-container {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .instructions-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .instructions-container ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .instructions-container li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .instructions-container li strong {
+    color: #000;
+  }
+  
